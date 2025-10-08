@@ -1,0 +1,77 @@
+# Python 编译文件
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+**/venv/
+**/env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+
+# 项目特定目录
+models/
+**/models/
+notebooks/
+**/notebooks/
+
+# 测试相关
+screenshots/
+**/screenshots/
+test_reports/
+**/test_reports/
+test_results/
+**/test_results/
+test_logs/
+**/test_logs/
+*.log
+*.json.bak
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量文件
+.env
+.env.local
+*.env
+
+# 数据文件（根据需要调整）
+*.csv
+*.h5
+*.pkl
+*.pickle
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
